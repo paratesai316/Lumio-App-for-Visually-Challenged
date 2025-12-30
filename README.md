@@ -144,4 +144,4 @@ Lumio is designed to function as a wearable prototype.
 
 ##
 
-### Developed with ❤️ for Accessibility
+#### Developed with ❤️ for Accessibility
