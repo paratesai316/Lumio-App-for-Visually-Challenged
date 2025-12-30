@@ -1,7 +1,13 @@
 # Lumio: AI-Powered Vision for the Visually Impaired
-<!-- Replace with your actual logo path or remove if not available --> <!-- ![Lumio Logo](path/to/logo.png) -->
 
-Lumio is an intelligent Android application designed to serve as a digital eye for blind and visually impaired individuals. By leveraging advanced on-device Machine Learning, Lumio instantly translates the visual world—text, objects, scenes, and people—into clear, audible descriptions.
+<p align="left">
+  <img src="logo.svg"
+     height="120"
+     style="float:left; margin:0 16px 16px 0; object-fit: contain;" />
+
+  Lumio is an intelligent Android application designed to serve as a digital eye for blind and visually impaired individuals. By leveraging advanced on-device Machine Learning, Lumio instantly translates the visual world—text, objects, scenes, and people—into clear, audible descriptions.
+</p>
+<br clear="left"/>
 
 ## 🚀 Primary Objective
 
@@ -9,7 +15,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
 ## 🌟 Key Features
 
-1. Smart Text Reader 📄
+1. **📄 Smart Text Reader**
 
     Function: Instantly reads signs, menus, and documents.
 
@@ -17,14 +23,15 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Single-finger double tap.
 
-2. Object Identifier ☕
+2. **☕ Object Identifier**
 
     Function: Identifies 300+ distinct items (e.g., Laptop, Coffee Cup, Keys).
 
     Tech: EfficientDet-Lite2 via MediaPipe for high-accuracy detection.
 
     Gesture: Two-finger swipe.
-3. Scene Describer 🏙️
+
+3. **🏙️ Scene Describer**
 
     Function: Provides a contextual summary of the environment
     (e.g., “A living room with a couch and TV”).
@@ -33,7 +40,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Single-finger triple tap.
 
-4. Person Recognition (Biometric ID) 👤
+4. **👤 Person Recognition (Biometric ID)**
 
     Function: Detects people and identifies them by name if they exist in the user’s database.
 
@@ -43,7 +50,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Two-finger tap.
 
-5. Touch-to-Read (Tactile Mode) 🤏
+5. **🤏 Touch-to-Read (Tactile Mode)**
 
     Function: Allows users to pinch their fingers around a specific paragraph on a physical document to read only that text.
 
@@ -51,16 +58,16 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Long press.
 
-6. Wearable Mode 👓
+6. **👓 Wearable Mode**
 
     Function: Supports external USB cameras (UVC).
     Users can clip a small camera (e.g., Waveshare OV5640) to glasses, connect via USB-OTG, and use the phone as a processing unit in their pocket.
 
 ## 🛠️ Tech Stack
 
-- Language: Kotlin
-- Camera: Android CameraX (Back, Front, and USB/External support)
-- ML Engines
+- **Language**: Kotlin
+- **Camera**: Android CameraX (Back, Front, and USB/External support)
+- **ML Engines**
 
   - Google MediaPipe: Object Detection, Face Detection, Hand Landmarks
   - Google ML Kit: Text Recognition, Image Labeling
@@ -82,11 +89,11 @@ Lumio uses a full-screen invisible gesture overlay, so users never need to locat
 
 ## ⚙️ Installation & Setup
 
-1. Clone the Repository
+1. **Clone the Repository**
 
     ` git clone https://github.com/yourusername/lumio.git `
 
-2. Add ML Models
+2. **Add ML Models**
 
     Download the following files and place them in:
 
@@ -100,13 +107,13 @@ Lumio uses a full-screen invisible gesture overlay, so users never need to locat
 
     - ` hand_landmarker.task ` (MediaPipe Hand Solutions)
 
-3. Build in Android Studio
+3. **Build in Android Studio
 
     Ensure minSdkVersion is 24 or higher
 
     Sync Gradle files
 
-4. Permissions
+4. **Permissions**
 
     The app requires CAMERA permission to function.
 
@@ -114,11 +121,11 @@ Lumio uses a full-screen invisible gesture overlay, so users never need to locat
 
 Lumio is designed to function as a wearable prototype.
 
-- Camera: Waveshare OV5640 (5MP USB Camera – Auto Focus)
+- **Camera**: Waveshare OV5640 (5MP USB Camera – Auto Focus)
 
-- Connection: USB-C to USB-A OTG adapter
+- **Connection**: USB-C to USB-A OTG adapter
 
-- Usage:
+- *Usage**:
 
   - Connect the camera
   - Open Lumio
@@ -127,13 +134,13 @@ Lumio is designed to function as a wearable prototype.
 
 ## 🔮 Future Roadmap
 
-- 🧭 GPS Navigation: Walking directions via Google Maps
+- 🌍 Multi-Language Support: Automatic translation of foreign text
 
-- 💵 Currency Reader: Banknote identification
+- 🧭 GPS Navigation: Walking directions via Google Maps
 
 - 💡 Light Detector: Audio cues for light sources (windows, lamps)
 
-- 🌍 Multi-Language Support: Automatic translation of foreign text
+- 💵 Currency Reader: Banknote identification
 
 ##
 
