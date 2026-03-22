@@ -9,13 +9,13 @@
 </p>
 <br clear="left"/>
 
-## 🚀 Primary Objective
+## Primary Objective
 
 To empower independence by providing a completely non-visual, gesture-based interface that allows users to navigate complex environments without internet connectivity or expensive proprietary hardware.
 
-## 🌟 Key Features
+## Key Features
 
-1. **📄 Smart Text Reader**
+1. **Smart Text Reader**
 
     Function: Instantly reads signs, menus, and documents.
 
@@ -23,7 +23,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Single-finger double tap.
 
-2. **☕ Object Identifier**
+2. **Object Identifier**
 
     Function: Identifies 300+ distinct items (e.g., Laptop, Coffee Cup, Keys).
 
@@ -31,7 +31,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Two-finger swipe.
 
-3. **🏙️ Scene Describer**
+3. **Scene Describer**
 
     Function: Provides a contextual summary of the environment
     (e.g., “A living room with a couch and TV”).
@@ -40,7 +40,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Single-finger triple tap.
 
-4. **👤 Person Recognition (Biometric ID)**
+4. **Person Recognition (Biometric ID)**
 
     Function: Detects people and identifies them by name if they exist in the user’s database.
 
@@ -50,7 +50,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Two-finger tap.
 
-5. **🤏 Touch-to-Read (Tactile Mode)**
+5. **Touch-to-Read (Tactile Mode)**
 
     Function: Allows users to pinch their fingers around a specific paragraph on a physical document to read only that text.
 
@@ -58,12 +58,12 @@ To empower independence by providing a completely non-visual, gesture-based inte
 
     Gesture: Long press.
 
-6. **👓 Wearable Mode**
+6. **Wearable Mode**
 
     Function: Supports external USB cameras (UVC).
     Users can clip a small camera (e.g., Waveshare OV5640) to glasses, connect via USB-OTG, and use the phone as a processing unit in their pocket.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: Kotlin
 - **Camera**: Android CameraX (Back, Front, and USB/External support)
@@ -74,7 +74,7 @@ To empower independence by providing a completely non-visual, gesture-based inte
   - TensorFlow Lite: FaceNet (Face Embeddings)
   - Audio: Android TextToSpeech (TTS)
 
-## 📱 Gesture Controls (Accessibility Guide)
+## Gesture Controls (Accessibility Guide)
 
 Lumio uses a full-screen invisible gesture overlay, so users never need to locate physical or on-screen buttons.
 
@@ -87,7 +87,7 @@ Lumio uses a full-screen invisible gesture overlay, so users never need to locat
 | Touch Reader    | Long Press            | Activates hand tracking to read text between fingers.      |
 | Add Person      | 2-Finger Double Tap   | (When prompted) Activates microphone to save a name.       |
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the Repository**
 
@@ -117,7 +117,7 @@ Lumio uses a full-screen invisible gesture overlay, so users never need to locat
 
     The app requires CAMERA permission to function.
 
-## 🧪 Hardware Prototype (Optional)
+## Hardware Prototype (Optional)
 
 Lumio is designed to function as a wearable prototype.
 
@@ -132,15 +132,15 @@ Lumio is designed to function as a wearable prototype.
   - Tap Switch Camera (top right) until the voice announces
     “Goggles Connected”
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
-- 🌍 Multi-Language Support: Automatic translation of foreign text
+- Multi-Language Support: Automatic translation of foreign text
 
-- 🧭 GPS Navigation: Walking directions via Google Maps
+- GPS Navigation: Walking directions via Google Maps
 
-- 💡 Light Detector: Audio cues for light sources (windows, lamps)
+- Light Detector: Audio cues for light sources (windows, lamps)
 
-- 💵 Currency Reader: Banknote identification
+- Currency Reader: Banknote identification
 
 ##
 
